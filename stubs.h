@@ -1,3 +1,4 @@
+#include <sys/types.h>
 // Need to create non-variadic versions of the V4L functions for them to bridge to Swift
 
 int v4l2_open_swift(const char *file, int oflag, int arg2)
